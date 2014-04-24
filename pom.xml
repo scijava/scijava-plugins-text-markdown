@@ -13,7 +13,7 @@
 	<version>0.1.1-SNAPSHOT</version>
 
 	<name>SciJava Plugins: Text: Markdown</name>
-	<description>Core text plugin for Markdown.</description>
+	<description>Core text format plugin for Markdown.</description>
 	<inceptionYear>2010</inceptionYear>
 
 	<licenses>
