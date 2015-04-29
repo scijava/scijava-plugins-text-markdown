@@ -1,3 +1,5 @@
+![](http://jenkins.imagej.net/job/SciJava-plugins-text-Markdown/lastBuild/badge/icon)
+
 SciJava Plugins: Text: Markdown
 -------------------------------
 
