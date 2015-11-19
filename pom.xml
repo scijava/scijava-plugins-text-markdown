@@ -16,7 +16,6 @@
 	<description>Core text format plugin for Markdown.</description>
 	<url>https://github.com/scijava/scijava-plugins-text-markdown</url>
 	<inceptionYear>2010</inceptionYear>
-
 	<licenses>
 		<license>
 			<name>Simplified BSD License</name>
@@ -63,12 +62,10 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/scijava/scijava-plugins-text-markdown</url>
 	</scm>
-
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>http://github.com/scijava/scijava-plugins-text-markdown/issues</url>
 	</issueManagement>
-
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/SciJava-plugins-text-Markdown/</url>
@@ -112,5 +109,4 @@ Wisconsin-Madison.</organizationName>
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
