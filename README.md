@@ -1,4 +1,4 @@
-[![](http://jenkins.imagej.net/job/SciJava-plugins-text-Markdown/lastBuild/badge/icon)](http://jenkins.imagej.net/job/SciJava-plugins-text-Markdown/)
+[![](https://travis-ci.org/scijava/scijava-plugins-text-markdown.svg?branch=master)](https://travis-ci.org/scijava/scijava-plugins-text-markdown)
 
 SciJava Plugins: Text: Markdown
 -------------------------------
