@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>scijava-plugins-text-markdown</artifactId>
-	<version>0.1.3-SNAPSHOT</version>
+	<version>0.1.3</version>
 
 	<name>SciJava Plugins: Text: Markdown</name>
 	<description>Core text format plugin for Markdown.</description>
@@ -64,7 +64,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/scijava/scijava-plugins-text-markdown</connection>
 		<developerConnection>scm:git:git@github.com:scijava/scijava-plugins-text-markdown</developerConnection>
-		<tag>HEAD</tag>
+		<tag>scijava-plugins-text-markdown-0.1.3</tag>
 		<url>https://github.com/scijava/scijava-plugins-text-markdown</url>
 	</scm>
 	<issueManagement>
