@@ -99,5 +99,12 @@ Wisconsin-Madison.</license.copyrightOwners>
 			<artifactId>markdownj</artifactId>
 			<version>0.3.0-1.0.2b4</version>
 		</dependency>
+
+		<!--  Test scope dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 </project>
