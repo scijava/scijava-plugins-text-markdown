@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>26.0.0</version>
+		<version>29.2.1</version>
 		<relativePath />
 	</parent>
 
@@ -84,6 +84,8 @@ Wisconsin-Madison.</license.copyrightOwners>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
+
+		<commonmark.version>0.16.1</commonmark.version>
 	</properties>
 
 	<dependencies>
@@ -95,9 +97,9 @@ Wisconsin-Madison.</license.copyrightOwners>
 
 		<!-- Third-party dependencies -->
 		<dependency>
-			<groupId>org.markdownj</groupId>
-			<artifactId>markdownj</artifactId>
-			<version>0.3.0-1.0.2b4</version>
+			<groupId>com.atlassian.commonmark</groupId>
+			<artifactId>commonmark</artifactId>
+			<version>${commonmark.version}</version>
 		</dependency>
 
 		<!--  Test scope dependencies -->

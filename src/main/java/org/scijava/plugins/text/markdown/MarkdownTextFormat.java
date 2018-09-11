@@ -30,18 +30,18 @@
 
 package org.scijava.plugins.text.markdown;
 
-import com.petebevin.markdown.MarkdownProcessor;
-
+import org.commonmark.node.Node;
+import org.commonmark.renderer.html.HtmlRenderer;
+import org.commonmark.parser.Parser;
 import java.util.Arrays;
 import java.util.List;
-
 import org.scijava.plugin.Plugin;
 import org.scijava.text.AbstractTextFormat;
 import org.scijava.text.TextFormat;
 
 /**
- * Text format for <a
- * href="http://daringfireball.net/projects/markdown/">Markdown</a>.
+ * Text format for
+ * <a href="http://daringfireball.net/projects/markdown/">Markdown</a>.
  * 
  * @author Curtis Rueden
  */
@@ -55,8 +55,11 @@ public class MarkdownTextFormat extends AbstractTextFormat {
 
 	@Override
 	public String asHTML(final String text) {
-		final MarkdownProcessor markdown = new MarkdownProcessor();
-		return markdown.markdown(text);
+		Parser parser = Parser.builder().build();
+		HtmlRenderer renderer = HtmlRenderer.builder().build();
+
+		Node node = parser.parse(text);
+		return renderer.render(node);
 	}
 
 }
