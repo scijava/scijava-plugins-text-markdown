@@ -1,4 +1,4 @@
-[![](https://github.com/scijava/scijava-plugins-text-markdown/actions/workflows/build-main.yml/badge.svg)](https://github.com/scijava/scijava-plugins-text-markdown/actions/workflows/build-main.yml)
+[![Build Status](https://github.com/scijava/scijava-plugins-text-markdown/actions/workflows/build.yml/badge.svg)](https://github.com/scijava/scijava-plugins-text-markdown/actions/workflows/build.yml)
 
 SciJava Plugins: Text: Markdown
 -------------------------------
